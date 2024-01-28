@@ -1,7 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Property Name="NI.Project.Description" Type="Str">This project is aimed at process offline and compare the EMG signals produced by DESC electrodes. In particular, such electrodes can be manually toggled in oreder to acquire Raw or Envelopped EMG signals. In the latter case, some hardware filters and a rectification circuit are exploited for obtaining this processing.</Property>
+	<Property Name="NI.Project.Description" Type="Str">This project is aimed at the offline processing and comparison of the EMG signals produced by DESC electrodes. In particular, such electrodes can be manually toggled in oreder to acquire Raw or Envelopped EMG signals. In the latter case, some hardware filters and a rectification circuit are exploited for obtaining this processing.
+Moreover, it evaluates the capability of segmenting the portion of useful EMG signals through thresholding with respect to Environmetal and Motor Noise</Property>
 	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
